@@ -1,0 +1,57 @@
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0 30px;
+}
+* {
+    box-sizing: border-box;
+}
+.row {
+    margin-top: 80px;
+    margin-bottom: 250px;
+}
+
+.udvozlunk{
+    font-family: Montserrat;
+    font-size: 30px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+.row {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+    cursor: pointer;
+    color:whitesmoke;
+    transition: all .2s ease-in-out;
+    padding: 16px;
+    text-align: center;
+    background-color: #3D3522;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow:  10px 10px 0 0 rgba(44, 38, 38, 0.2);
+}
+
