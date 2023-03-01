@@ -1,8 +1,77 @@
-.column {
+.column1, .column2, .column3 {
     float: left;
     width: 33.33%;
     padding: 0 30px;
 }
+
+.column1{
+    animation-name: balroljobbra;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.column2{
+    animation-name: lentrolfel;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.column3{
+    animation-name: jobbrolbalra;
+    animation-duration: 1.85s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+@keyframes balroljobbra {
+    from{
+        transform: translateX(-650px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes lentrolfel {
+    from{
+        transform: translateY(800px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes jobbrolbalra {
+    from{
+        transform: translateX(650px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -15,10 +84,6 @@
     font-family: Montserrat;
     font-size: 30px;
     animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
 }
 
 @keyframes fadeIn {
@@ -26,7 +91,9 @@
     100% { opacity: 1; }
 }
 
-
+.kep{
+    border-radius: 10px;
+}
 .row {
     margin-top: 80px;
     margin-bottom: 70px;
@@ -40,6 +107,8 @@
 }
 
 .card{
+    border-radius: 10px;
+    bottom: 150px;
     cursor: pointer;
     color:whitesmoke;
     transition: all .2s ease-in-out;
