@@ -60,10 +60,7 @@
     box-sizing: border-box;
     font-family: Montserrat;
 }
-.row {
-    margin-top: 80px;
-    margin-bottom: 250px;
-}
+
 
 .udvozlunk{
     font-family: Montserrat;
@@ -90,6 +87,8 @@
     display: table;
     clear: both;
 }
+
+
 
 .card{
     border-radius: 10px;
@@ -133,7 +132,7 @@
     grid-template-columns: auto auto auto;
     border: 1px solid black;
     margin-left: 50px;
-    bottom: 3px;
+    margin-bottom: -55px;
     text-align: center;
     width: 900px;
     height: 350px;
