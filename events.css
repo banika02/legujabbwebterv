@@ -107,7 +107,7 @@ body{
 
 .sor1 {
     margin-top:2vw;
-    margin-bottom: 6vw;
+    margin-bottom: 3vw;
 }
 
 .sor1:after {
@@ -121,62 +121,51 @@ body{
 .baloldal{
     float:left;
     background-color: blue;
-    height: 10vw;
-    width: 16vw;
-    border-radius: 1.5vw;
+    height: 12vw;
+    width: 18vw;
+    border-radius: 1vw;
     border: 3px solid black;
     align-content: center;
     text-align: center;
     margin-left: 10vw;
-    margin-right: 8vw;
+    margin-right: 10vw;
     background-image: url("wimbledon.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-
 }
 
 
-.baloldaliszoveg{
-    text-align: center;
-    
-    width: 2vw;
-    margin-left: 7vw;
-    border: 1px solid black;
-    padding-top: 7.5vw;
-    color: #f2f2f2;
-
-}
 
 .kozep{
     float:left;
-
-    height: 10vw;
-    width: 16vw;
-    border-radius: 1.5vw;
+    height: 12vw;
+    width: 18vw;
+    border-radius: 1vw;
     border: 3px solid black;
     align-content: center;
     text-align: center;
-    margin-left: 0;
-    margin-right: 8vw;
+    margin-left: 1.5vw;
+    margin-right: 10vw;
     background-image: url("city.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .jobboldal{
-    float: left;
+    float: right;
     background-color: yellow;
-    height: 10vw;
-    width: 16vw;
-    border-radius: 1.5vw;
+    height: 12vw;
+    width: 18vw;
+    border-radius: 1vw;
     border: 3px solid black;
     align-content: center;
     text-align: center;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 5px;
+    margin-right: 12vw;
     background-image: url("nba.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+
 }
 
 
